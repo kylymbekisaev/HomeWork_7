@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/ed_anime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#02F4E0"
+        android:paddingStart="150dp"
+        android:text="Anime"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/ed_naruto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#81FBFF"
+        android:paddingStart="150dp"
+        android:text="Naruto"
+        android:textSize="30dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="->"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+</LinearLayout>
